@@ -62,7 +62,7 @@ export const CircleProgressBar: React.FC = () => {
       </Svg>
       <TouchableOpacity style={[style.button]} onPress={onPress}>
         <Text style={[style.bottomText]}>
-          Touch MF
+          Run
         </Text>
       </TouchableOpacity>
     </View>
