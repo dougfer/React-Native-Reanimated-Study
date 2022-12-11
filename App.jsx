@@ -9,7 +9,9 @@ import {
   Taps, 
   ColorPicker, 
   CircleProgressBar,
-  SwipeToDelete
+  SwipeToDelete,
+  RippeEffect,
+  PerspectiveMenu
 } from './Animations'
 import 'react-native-gesture-handler'
 import { GestureHandlerRootView } from 'react-native-gesture-handler'
@@ -19,7 +21,7 @@ export default function App() {
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
         <View style={styles.container}>
-          <SwipeToDelete />
+          <PerspectiveMenu />
         </View>
     </GestureHandlerRootView>
   );
